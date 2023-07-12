@@ -59,7 +59,7 @@ function Login() {
   };
   return (
     <div className="login">
-      <img src={logo} alt="" />
+      <img src={logo} alt="logopic" />
       <form>
         <input
           value={name}

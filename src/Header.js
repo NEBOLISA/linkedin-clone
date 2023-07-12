@@ -25,7 +25,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header_left">
-        <img src={logo} alt="" />
+        <img src={logo} alt="logopic" />
         <div className="header_search">
           <SearchIcon />
           <input placeholder="Search" type="text" />

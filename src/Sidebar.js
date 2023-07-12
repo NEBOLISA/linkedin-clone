@@ -21,7 +21,7 @@ function Sidebar() {
       <div className="sidebar_top">
         <img
           src="https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"
-          alt=""
+          alt="sidebarpic"
         />
         <Avatar className="sidebar_avatar" src={user.photoUrl}>
           {" "}
