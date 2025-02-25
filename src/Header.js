@@ -1,18 +1,20 @@
 import React from "react";
 import "./Styles/Header.css";
-import SearchIcon from "@mui/icons-material/Search";
+import SearchIcon from '@mui/icons-material/Search';
+
 import logo from "./Assets/Imgs/logo.png";
 import HeaderOption from "./HeaderOption";
-import HomeIcon from "@mui/icons-material/Home";
-import ChatIcon from "@mui/icons-material/Chat";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
-import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
+import HomeIcon from '@mui/icons-material/Home';
+import ChatIcon from '@mui/icons-material/Chat';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import { useDispatch, useSelector } from "react-redux";
 import { logout, selectUser } from "./features/userSlice";
 import { signOut, getAuth } from "firebase/auth";
 import { firebaseApp } from "./firebase";
-import { Avatar } from "@material-ui/core";
+
+import Avatar from '@mui/material/Avatar'
 //https://pbs.twimg.com/profile_images/1129141174500024320/YSCayTg8_400x400.jpg"
 function Header() {
   const user = useSelector(selectUser);
